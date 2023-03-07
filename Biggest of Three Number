@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class biggest {
+
+	public static void main(String[] args) {
+		
+		int n1,n2,n3,large;
+		Scanner input=new Scanner(System.in);  
+		
+		System.out.println("Enter the Value of n1");
+		n1=input.nextInt();
+		System.out.println("Enter the Value of n2");
+		n2=input.nextInt();
+		System.out.println("Enter the Value of n3");
+		n3=input.nextInt();
+		input.close();
+		
+		if ( n1>n2 && n1>n3 ) {
+		  large=n1;}
+		  else if (n2>n1 && n2>n3) {
+			  large=n2;
+			
+		}
+		  else {
+			large=n3;
+		}
+		System.out.println(large);
+		
+
+	}
+
+}
