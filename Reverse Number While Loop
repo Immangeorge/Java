@@ -1,0 +1,13 @@
+public class ReverseNumber {
+    public static void main(String[] args) {
+		int number=123;
+		int remainder,revnumber=0;
+		while (number>0) {
+			remainder=number%10;
+			number=number/10;
+			revnumber=(revnumber*10)+remainder;
+	
+		}
+		System.out.println(revnumber);
+	}
+}
